@@ -31,10 +31,10 @@ function setup() {
   player = Bodies.rectangle(250, playerBase.position.y - 160, 50, 180, options);
   World.add(world,player)
 
-  playerArcher = new ( 340, playerBase.position.y - 112, 120, 120);
-  playerArcher = new PlayerArcher( 340, playerBase.position.y - 112, 120, 120);
-  playerArcher =  PlayerArcher( 340, playerBase.position.y - 112, 120, 120);
-  playerArcher = new PlayerArcher( );
+ // playerArcher = new ( 340, playerBase.position.y - 112, 120, 120);
+ // playerArcher = new PlayerArcher( 340, playerBase.position.y - 112, 120, 120);
+ // playerArcher =  PlayerArcher( 340, playerBase.position.y - 112, 120, 120);
+ // playerArcher = new PlayerArcher( );
 
 }
 
@@ -46,10 +46,10 @@ function draw() {
   Engine.update(engine);
 
 
-   playerArcher.display;
-   playerArcherdisplay();
-   playerArcher.display();
-   display();
+  // playerArcher.display;
+  // playerArcherdisplay();
+  // playerArcher.display();
+  // display();
 
   // Title
   fill("#FFFF");
